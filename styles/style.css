@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 /* universal Selector start */
 
 *{
@@ -7,6 +9,36 @@
 }
 
 /* universal Selector end */
+
+/* shared styles */
+
+
+.lato-light{
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;  
+}
+.text-light-gray{
+    color:#424242;
+}
+
+.btn1{
+    width: 150px;
+height: 50px;
+color: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    border:none;
+background: rgb(229, 84, 115);
+position:relative;
+right: 8rem;
+cursor:pointer;
+
+}
+
+.display{
+    display:flex;
+}
 
 /* beautiful flower section styles start */
 
@@ -59,19 +91,6 @@ font-weight: 400;
 margin-bottom:10px;
 }
 
-.btn1{
-    width: 150px;
-height: 50px;
-color: #f1f1f1;
-    border-radius: 8px;
-    padding: 10px;
-background: rgb(229, 84, 115);
-position:relative;
-right: 8rem;
-cursor:pointer;
-
-}
-
 .beautiful-flower-image-container{
   
   width:100%;
@@ -94,3 +113,89 @@ cursor:pointer;
 
 
 
+/* latest deals section styles start */
+
+.latest-deals-container{
+    width:1340px;
+    height:420px;
+    background-image:url(../images/rectangle-design.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+
+.latest-deals-content{
+    /* width:800px;
+    height:186px; */
+    /* text-align: center; */
+    margin:50px auto;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* gap:50px; */
+    
+}
+
+.latest-deals-description{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:80px;
+}
+
+.latest-deals-description h4{
+    max-width:540px;
+    font-size:2.5rem;
+    font-weight: 800;
+}
+
+
+
+.input1{
+    width:550px;
+    height:60px;
+    border-radius:8px;
+    background-color: #FFFFFF;
+        padding-left:30px;
+        border:none;
+        margin-right:140px;
+}
+
+
+/* latest deals section styles end */
+
+/* footer styles start */
+
+.footer-container{
+    width: 1890px;
+height: 400px;
+background: rgb(17, 16, 16);
+width:100%;
+margin-top:150px;
+}
+
+.footer-content{
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    color:#FFFFFF;
+}
+
+.footer-content h3{
+    margin-top:90px;
+    font-size: 3rem;
+    font-weight: 800;
+    
+}
+
+.footer-content > h3 > span{
+    color:#E55473;
+} 
+
+.footer-content p{
+    margin-top:50px;
+    font-size: 1.25rem;
+    font-weight:400;
+    text-align: center;
+}
+/* footer styles end */
