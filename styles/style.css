@@ -40,6 +40,14 @@ cursor:pointer;
     display:flex;
 }
 
+.service-title{
+    color:rgba(39, 39, 39, 0.8);
+font-size:1.2rem;
+font-weight:600;
+text-align:center;
+margin-top:20px;
+}
+
 /* beautiful flower section styles start */
 
 .beautiful-flower-container{
@@ -218,6 +226,69 @@ position:relative;
 }
 
 /* featured flowers section styles end */
+
+/* services section styles start */
+
+.services-section{
+    width:80%;
+    height:300px;
+    margin:0 auto;
+    margin-top:180px;
+    background-color:rgba(39, 39, 39, 0.05);
+    border-radius:0.5rem;
+}
+
+.services-container{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.first-service, 
+.second-service, 
+.third-service{
+    margin-top:10%;
+}
+
+.first-service img{
+    width:75px;
+    background-color:rgba(39, 39, 39, 0.04);
+    border-radius:0.5rem;
+    margin-left:30%;
+}
+
+.second-service img{
+    width:75px;
+    background-color:rgba(39, 39, 39, 0.04);
+    border-radius:0.5rem;
+    margin-left:30%;
+}
+.third-service img{
+    width:75px;
+    background-color:rgba(39, 39, 39, 0.04);
+    border-radius:0.5rem;
+    margin-left:30%;
+}
+
+.first-service img:hover{
+    cursor:pointer;
+    background-color:#E55473;
+    transform:rotate(35deg);
+}
+
+.second-service img:hover{
+    cursor:pointer;
+    background-color:#E55473;
+    transform:rotate(35deg);
+}
+.third-service img:hover{
+    cursor:pointer;
+    background-color:#E55473;
+    transform:rotate(35deg);
+}
+
+/* services section styles end */
 
 /* latest deals section styles start */
 
